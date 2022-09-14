@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        h3 {
+            color: tomato;
+            font-size: 22px;
+        }
+
+        /* header-start */
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 85vh;
+            width: 100vw;
+        }
+
+        #header-content {
+            background-image:
+            linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.1)),
+                url(img/pratik-alman-pastasi-yemekcom.webp)
+            ;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            border-radius: 10px;
+            height: 70vh;
+            width: 60vw;
+        }
+
+        #main-title {
+            color: #fff;
+            font-size: 40px;
+            max-width: 400px;
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+        }
+
+        /* header-end */
+
+        /* main-start */
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* information-start */
+
+        #information {
+            width: 60vw;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+
+        #information-title {
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+        }
+
+        #information-title div {
+            padding: 30px;
+        }
+
+        strong {
+            display: block;
+            color: tomato;
+        }
+
+        /* information-end */
+
+        /* ingredients-start */ 
+
+        #ingredients {
+            width: 70vw;
+            position: relative;
+            left: 100px;
+        }
+
+        /* recipe-start */
+
+        #recipe {
+            width: 70vw;
+            margin-top: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- header start -->
+    <header>
+
+        <div id="header-content">
+            <h1 id="main-title">
+                Pastaneden Almışsın Gibi: Pratik Alman Pastası Tarifi
+            </h1>
+        </div>
+
+    </header>
+    <!-- header-end -->
+
+    <main>
+
+        <!-- information -->
+        <article id="information">
+            <div id="information-title">
+                <div>
+                    <strong>Tarif:</strong>Ege Sahin
+                </div>
+                <div>
+                    <strong>Kac Kisilik:</strong> 10 Dilim
+                </div>
+                <div>
+                    <strong>Hazirlik Süresi:</strong> 30 Dakika
+                </div>
+                <div>
+                    <strong>Pisirme Süresi:</strong> 45 dakika
+                </div>
+            </div>
+            <p>
+                Pastane vitrinlerinden eksik olmayan, o çok sevdiğimiz Alman pastasının hazırlamak için mayalı hamur yapmak bazen zaman alıcı olabiliyor. Fazla yorulmadan kolay pasta yapmak isteyenler, sizi pratik Alman pastası tarifimize alalım. Yapılışı oldukça kolay ve aynı zamanda ekonomik bir pasta olduğu için herkesin çok seveceğine eminiz. Puf puf kabarmış kekinin arasında yumuşacık kreması ile damağınız şenlenecek, bir dilim daha isteyeceksiniz.Üzerini meyve dilimleri ile süslediğinizde şık bir doğum günü ya da kutlama pastası bile olabilecek kadar şık bir pasta aynı zamanda.
+            </p>
+        </article>
+
+        <!-- ingredients-start -->
+
+        <section id="ingredients">
+            <h3>Keki Icin:</h3>
+            <ul>
+                <li>3 adet yumurta</li>
+                <li>1 su bardağı toz şeker</li>
+                <li>1 çay bardağı (1 parmak eksik)</li>
+                <li>1 çay bardağı (1 parmak eksik) süt</li>
+                <li>1 yemek kaşığı (tepeleme) yoğurt</li>
+                <li>1 paket kabartma tozu</li>
+                <li>1 paket vanilin</li>
+                <li>2 su bardağı un</li>
+            </ul>
+
+            <h3>Kreması İçin:</h3>
+            <ul>
+                <li>2,5 su bardağı süt</li>
+                <li>1/2 su bardağı toz şeker</li>
+                <li>3 adet yumurta sarısı</li>
+                <li>2 yemek kaşığı un</li>
+                <li>2 yemek kaşığı mısır nişastası</li>
+                <li>1 paket vanilin</li>
+                <li>1 tatlı kaşığı tereyağı</li>
+            </ul>
+
+            <h3>Ic Malzemesi Icin:</h3>
+            <ul>
+                <li>2
+                    adet orta boy muz (arzuya göre)</li>
+            </ul>
+
+            <h3>Üzeri icin</h3>
+            <ul>
+                <li>1 yemek kaşığı pudra şekeri</li>
+                <li>2 dilim muz</li>
+            </ul>
+        </section>
+
+        <!-- ingredients-end -->
+
+        <!-- recipe -->
+
+        <article id="recipe">
+
+            <h3>Tarif:</h3>
+
+            Derin bir kapta yumurta ve toz şekeri beyazlaşana kadar çırpın. <br>
+            Ardından sıvı yağı ekleyin. <br>
+            Sütü ekleyin. <br>
+            Yoğurdu ekleyin ve tekrar çırpın. <br>
+            Son olarak vanilin, kabartma tozu ve unu eleyerek ekleyin ve 2 dakika kadar çırpın. Homojen bir kek harcı elde ettiğinizde hazır olacak. <br>
+            Kelepçeli ve yuvarlak kek, orta boy kalıbını yağlayın. Kek harcını dökün. <br>
+            Önceden ısıtılmış 180 derece fırında 35 dakika kontrollü olarak pişirin. Pişen keki tezgahta soğumaya bırakın. <br>
+
+            <h3>Kremasi Icin:</h3>
+
+            Muhallebisi için yumurta sarısı, un, mısır nişastası ve vanilini derin bir kasede tel çırpıcı ile karıştırın. <br>
+            Tencereye toz şeker ve sütü koyup kaynamaya bırakın. Kaynadıktan sonra yumurtalı karışıma bir kepçe dökün ve hızlıca karıştırın. Ardından yumurtalı karışımın tamamını tencereye dökün ve karışımı sürekli karıştırarak koyulaşıncaya kadar pişirin. <br>
+            Piştikten sonra ocaktan almadan önce tereyağını ekleyin ve karıştırın. <br>
+            Üzerini streç film ile kapatıp oda sıcaklığında soğumaya bırakın. <br>
+
+            <h3>Pratik Alman Pastasi Icin:</h3>
+
+            Soğuyan keki enlemesine ortadan ikiye kesin. Kekin alt tabanını bir servis tabağına yerleştirin ve kremanın tamamını ekleyip güzelce yayın. <br>
+            Muz dilimlerini ekleyin. <br>
+            Kekin diğer yarısını üzerine kapatın ve buzdolabında en az 1 saat dinlenmeye bırakın. <br>
+            Servis öncesinde pastanın üzerine pudra şekeri serpin. Arzuya göre üzerini muz dilimleri ile süsleyebilirsiniz. Afiyet olsun! <br>
+        </article>
+
+        <!-- recipe-end -->
+
+    </main>
+
+    <footer>
+        <a href="https://app.patika.dev/gurayyalmaz">Patika.dev profilim</a>
+    </footer>
+    
+</body>
+</html>
